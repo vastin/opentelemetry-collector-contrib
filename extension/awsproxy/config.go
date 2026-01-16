@@ -14,3 +14,6 @@ type Config struct {
 	// prevent unkeyed literal initialization
 	_ struct{}
 }
+
+// RoutingRule re-exports proxy.RoutingRule for external use.
+type RoutingRule = proxy.RoutingRule
